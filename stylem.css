@@ -1,0 +1,148 @@
+#navbar{
+    flex-wrap: wrap;
+}
+
+#desg{
+    font-size: 60px;
+}
+#main_develop{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main_sub_devo{
+    margin: 20px;
+    padding: 10px;
+}
+#quote{
+    width: 100%;
+}
+#devlop{
+    background: none;
+    width: 100%;
+    height: 100%;
+}
+#devlop_image{
+    height: 275px;
+}
+#user_rerout{
+    margin-top: 30%;
+    display: block;
+}
+#exp{
+    width: 100%;
+    text-align: center;
+}
+#exp_fresh{
+    text-align: center;
+}
+.nav_li{
+    background: none;
+    margin: 20px;
+}
+.nav_li_a{
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+    color: white;
+}
+#side_bar{
+    background-color: rgba(0, 0, 0, 0.774);
+    backdrop-filter: blur(10px);
+}
+#menu_close{
+    padding: 20px;
+    margin: 20px;
+}
+#menu_close:hover{
+    opacity: 0.6;
+}
+.menu_icon_items_close{
+    background-color: white;
+    width: 50px;
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    background-color: white;
+    text-align: center;
+    margin: 4px;
+}
+#menu_icon1{
+    transform: rotate(42deg);
+    background-color: white;
+}
+#menu_icon2{
+    transform: rotate(-42deg);
+    background-color: white;
+}
+#project_main{
+    width: 100%;
+    margin: 10px;
+}
+.proj_card{
+    width: 80%;
+}
+.explore_proj{
+    font-size: 20px;
+    font-weight: 100px;
+    width: auto;
+}
+.nav_icon{
+    height: 20px;
+}
+/* footer css start here*/
+#foot_head{
+    color: white;
+    font-size: 30px;
+}
+#foot_hire{
+    margin: 10px;
+}
+#foot_sub1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+#foot_sub2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#main_footer_policy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#contact_head{
+    font-size: 30px;
+    padding: 10px;
+}
+/* footer css ends here*/
+/* hire css start here */
+#w_hire_me{
+    display: block;
+    background-color: #F2F4F7;
+    color: #344054;
+}
+#arsh_profile{
+    height: 300px;
+}
+#why_hire{
+    font-size: 40px;
+    font-weight: 500;
+}
+.hire_screen{
+    padding: 10px;
+    width: auto;
+}
+.hire_screen{
+    padding: 10px;
+}
+/* hire css ends here */
+/* mobile css*/

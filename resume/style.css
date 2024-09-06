@@ -1,0 +1,343 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serifs;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    * {
+      text-align: center;
+    }
+
+    #resume {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      flex-wrap: wrap;
+    }
+
+    #side_nav {
+      position: static;
+      width: 100vw;
+    }
+
+    #resume_deatils {
+      padding: 10px;
+    }
+
+    #bages {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    #res_skill {
+      flex-wrap: wrap;
+    }
+
+    #menu_back {
+      display: flex;
+    }
+    #user_nav_help {
+      display: none;
+    }
+    #menu_back {
+      background-color: #fd853a;
+      padding: 10px;
+      height: auto;
+      margin: 10px;
+      border-radius: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      top: 10px;
+      position: sticky;
+    }
+
+    #heading_page {
+      color: white;
+      font-size: 20px;
+    }
+
+    #back_to_home {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      background-color: #fd9a5c;
+      padding: 10px;
+      border-radius: 10px;
+    }
+  }
+}
+
+#side_nav {
+  top: 10px;
+  position: sticky;
+  background-color: rgba(124, 124, 124, 0.096);
+  border-radius: 10px;
+}
+#user_nav_help {
+  height: auto;
+  background-color: #fd853a;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  top: 20px;
+  position: sticky;
+}
+#heading_page1 {
+  color: white;
+  font-size: 20px;
+}
+
+#back_to_home1 {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  background-color: #fd9a5c;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#back_to_home1:hover {
+  background-color: #fcc4a1;
+  color: black;
+}
+
+#menu_back {
+  display: none;
+}
+
+#resume {
+  text-align: center;
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  margin: 10px;
+}
+
+#arsh_logo {
+  height: 200px;
+}
+
+#social_media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon_social {
+  height: 20px;
+  margin: 1px;
+  padding: 10px;
+}
+
+@keyframes icon_hover {
+  from {
+    background-color: white;
+  }
+
+  to {
+    background-color: red;
+  }
+}
+
+.icon_social:hover {
+  animation-name: icon_hover;
+  animation-duration: 1s;
+  border-radius: 6px;
+  fill: white;
+}
+
+#contact_info_bottom {
+  padding: 20px;
+  margin: 10px;
+  text-align: left;
+  background-color: #f3f6f6;
+  padding: 10px;
+  padding-bottom: 0;
+}
+
+.contact_card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.con_icon {
+  height: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact_desc {
+  text-align: left;
+  padding: 10px;
+}
+
+.con_head {
+  color: grey;
+}
+
+#download {
+  height: 20px;
+  margin: 6px;
+}
+
+#download_a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #fd853a;
+  padding: 10px;
+  margin: 20px;
+}
+
+@keyframes download_ani {
+  from {
+    color: white;
+    background-color: #fd853a;
+  }
+
+  to {
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+  }
+}
+
+@keyframes download_ani_back {
+  from {
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+  }
+
+  to {
+    color: white;
+    background-color: #fd853a;
+  }
+}
+
+#download_a:hover {
+  animation-name: download_ani;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+
+  #download:hover {
+    color: red;
+  }
+}
+
+#download_a:not(:hover) {
+  animation-name: download_ani_back;
+  animation-duration: 2s;
+}
+
+#resume_deatils {
+  padding: 10px;
+  text-align: left;
+}
+
+#res_about {
+  padding: 10px;
+}
+
+#about_body {
+  font-size: 16px;
+  color: grey;
+  padding: 20px;
+}
+
+#about_heading {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#about_head {
+  font-size: 24px;
+}
+
+#about_hr {
+  background-color: red;
+  height: 4px;
+  width: 60px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+}
+
+#res_skill {
+  padding: 10px;
+}
+
+#skill_head {
+  font-size: 20px;
+}
+
+#all_skill {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.skill_icon {
+  height: 40px;
+  margin: 10px;
+}
+
+.skill_card {
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill_body {
+  color: grey;
+}
+
+.skill_head {
+  font-weight: 400;
+}
+
+#skill1 {
+  background-color: #fff4f4;
+}
+
+#skill2 {
+  background-color: #eef5fa;
+}
+
+#skill3 {
+  background-color: #fff4f4;
+}
+
+#skill4 {
+  background-color: #eef5fa;
+}
+
+#bages {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.skill_badge {
+  height: 200px;
+}
