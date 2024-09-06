@@ -10,6 +10,16 @@ Welcome to my Portfolio Template! This repository showcases a personal portfolio
 - **Professional Sections** 📝: Sections for an introduction, about me, services, and resume.
 - **Easy Customization** 🛠️: Simple to update and personalize with your information.
 
+## Preview 📸
+
+Here’s a quick look at how the portfolio template appears on different devices:
+
+- **Desktop View** 💻:
+  ![Desktop View](https://raw.githubusercontent.com/arshc0der/Portfolio-Template/main/preview/DesktopView.jpeg)
+  <br/>
+- **Mobile View** 📱:
+  ![Mobile View](https://raw.githubusercontent.com/arshc0der/Portfolio-Template/main/preview/MobileView.jpeg)
+
 ## Getting Started 🚀
 
 To get started with this template, follow these steps:
@@ -75,6 +85,10 @@ Contributions are welcome! If you have suggestions or improvements, feel free to
 ## License 📜
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Thanks to 🙏
+
+A special thanks to [FontAwesome](https://fontawesome.com/) for the icons used in this project. 🎨
 
 ## Contact 📬
 
